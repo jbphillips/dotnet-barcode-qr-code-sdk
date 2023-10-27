@@ -54,6 +54,7 @@
 
 	<ItemGroup>
 	  <None Remove="Platforms\Android\Resources\layout\CameraLayout.axml" />
+	  <None Remove="Resources\Images\americanredcrosslogotrans.png" />
 	</ItemGroup>
 
 	<ItemGroup>

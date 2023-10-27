@@ -5,7 +5,19 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Button x:Name="takePhotoButton" Text="Image File" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="OnTakePhotoButtonClicked" />
+            <Grid RowDefinitions="*,Auto">
+
+                <Grid Padding="0" >
+                    <Label Text="Barcode Qr Scanner SDK MAUI .Net 6"
+                    SemanticProperties.HeadingLevel="Level4"
+                    FontSize="18"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="Center" />
+                </Grid>
+
+            </Grid>
+
+            <!--<Button x:Name="takePhotoButton" Text="Image File" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="OnTakePhotoButtonClicked" />-->
             <Button x:Name="takeVideoButton" Text="Camera Stream" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="OnTakeVideoButtonClicked" />
         </StackLayout>
     </ContentPage.Content>

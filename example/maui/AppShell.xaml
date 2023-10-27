@@ -6,6 +6,12 @@
     xmlns:local="clr-namespace:BarcodeQrScanner"
     Shell.FlyoutBehavior="Disabled">
 
+    <Shell.TitleView>
+        <Image Source="americanredcrosslogotrans.png"
+           HorizontalOptions="Start"
+           VerticalOptions="Center" />
+    </Shell.TitleView>
+    
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
